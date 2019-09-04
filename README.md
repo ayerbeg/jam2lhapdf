@@ -20,7 +20,7 @@ fragmentation functions in LHAPDF format.
 ## Quick start
 
 * clone the repo
-* move the folders e.g. JAM19PDF_proton_nlo, JAM19FF_pion_nlo, JAM19FF_kaon_nlo to path2lhapdf/share/LHAPDF
+* move the folders e.g. JAM19PDF_proton_nlo  to path2lhapdf/share/LHAPDF
 * the tables will be available soon at the LHAPDF site
 
 
