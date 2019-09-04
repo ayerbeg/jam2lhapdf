@@ -4,52 +4,26 @@
  
 The repository contains interpolation tables for the collinear parton
 distribution functions in the nucleon, and the collinear parton to hadron
-fragmentation functions. The interpolation codes and grids are available in:
+fragmentation functions in LHAPDF format.
 
-* [python](https://github.com/JeffersonLab/JAMLIB/tree/master/python)
-
-* [LHAPDF format](https://github.com/JeffersonLab/JAMLIB/tree/master/LHAPDF) (grids only)
-
-* [fortran](https://github.com/JeffersonLab/JAMLIB/tree/master/fortran)
-
-The usage is described in the README files within each subfolder. 
 
 ## Available sets
-| Table         | Reference         | Notes                                       |
-| :--           | :--:              | :--                                         |
-| JAM15 PPDF    | [inspirehep][jam15] | q+ (=q+qbar) and glue at NLO                |
-| JAM15 T3PPDF  | [inspirehep][jam15] | u- and d-type twist-3 distributions          |
-| JAM15 T4g1    | [inspirehep][jam15] | twist-4 part of g1 for proton and neutron   |
-| JAM16 FFpion  | [inspirehep][jam16] | q+ and glue at NLO                |
-| JAM16 FFkaon  | [inspirehep][jam16] | q+ and glue at NLO                |
-| JAM17 PPDF    | [inspirehep][jam17] | q+, qb, and glue at NLO (PYTHON ONLY)          |
-| JAM17 FFpion  | [inspirehep][jam17] | q+, q_unfavored, and glue at NLO (PYTHON ONLY)          |
-| JAM17 FFkaon  | [inspirehep][jam17] | q+, q_unfavored, and glue at NLO (PYTHON ONLY)          |
+| Table               | Reference           | Notes                                                  |
+| :--                 | :--:                | :--                                                    |
+| JAM19PDF_proton_nlo | [inspirehep][jam19] | JAM19 NLO combined PDF/FF global analysis (proton PDF) |
+| JAM19FF_pion_nlo    | [inspirehep][jam19] | JAM19 NLO combined PDF/FF global analysis (pion+ FF)   |
+| JAM19FF_kaon_nlo    | [inspirehep][jam19] | JAM19 NLO combined PDF/FF global analysis (kaon+ PDF)  |
 
 
-[jam15]: https://inspirehep.net/record/1418180
-[jam16]: http://inspirehep.net/record/1485196
-[jam17]: https://inspirehep.net/record/1599958
+[jam19]: https://inspirehep.net/record/1734309
 
 ## Quick start
-The JAMLIB can be downloaded in two ways:
 
-* [Download the latest release](https://github.com/JeffersonLab/JAMLIB/archive/master.zip).
-*  Clone the repo:  `$ git https://github.com/JeffersonLab/JAMLIB.git`.
-
-To get the latest update, pull from your local repo, e.g. `$ git pull`.
-
-
-
-
-## Questions/bugs
-Send feedback or questions using the github 
-[issue tracker system](https://github.com/JeffersonLab/JAMLIB/issues).
+* clone the repo
+* move the JAM19PDF_proton_nlo, JAM19FF_pion_nlo, JAM19FF_kaon_nlo to path2lhapdf/share/LHAPDF
+* the tables will be available soon at the LHAPDF site
 
 
 ## Authors
 * Nobuo Sato (Jefferson Lab)
-* Alberto Accardi (Hampton U. and Jefferson Lab)
-* Jacob Ethier (College of William and Mary)
-* Wally Melnitchouk (Jefferson Lab)
 
